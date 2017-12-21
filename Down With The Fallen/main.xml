@@ -1,4 +1,4 @@
-<table name="Down With The Fallen" directory="xd">
+<table name="First Light/Down With The Fallen" directory="xd">
     <Localization directory="Loc" default="EN.txt"/>
     <!-- id: Id of the music will be used as an id for your music and part of localization for the music name, 
         source= path in game, 
