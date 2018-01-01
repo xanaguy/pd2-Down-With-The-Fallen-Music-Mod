@@ -1,4 +1,5 @@
-<table name="First Light/Down With The Fallen" directory="xd">
+<!-- name: your mod name / folder name -->
+<table name="Down With The Fallen">
     <Localization directory="Loc" default="EN.txt"/>
     <!-- id: Id of the music will be used as an id for your music and part of localization for the music name, 
         source= path in game, 
@@ -12,10 +13,10 @@
             source= the sound file that the event will play and loop.
             start_source= [Optional] the sound file that the event should play before playing the default one that will be looping.
         -->
-        <event name="setup" start_source="bustin" source="setup"/>
-        <event name="anticipation" start_source="bustin" source="anticipation"/>
+        <event name="setup" source="setup"/>
+        <event name="anticipation" source="anticipation"/>
         <event name="assault" source="assault"/>
-        <event name="control" start_source="bustin" source="control"/>
+        <event name="control" source="control"/>
     </Music>
     <!-- Add our music(movie) files-->
     <AddFiles directory="Assets">
@@ -26,5 +27,3 @@
         <movie path="music/DWTF/control"/>
     </AddFiles>
 </table>
-
- 
